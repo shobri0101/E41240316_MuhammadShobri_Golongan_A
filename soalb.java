@@ -12,21 +12,21 @@ class A {
     }
 }
 
-// Kelas B (turunan dari A)
+
 class B extends A {
     void callthis() {
         System.out.println("Inside Class B’s Method!");
     }
 }
 
-// Kelas C (turunan dari A)
+
 class C extends A {
     void callthis() {
         System.out.println("Inside Class C’s Method!");
     }
 }
 
-// Kelas utama untuk Dynamic Dispatch
+
 public class soalb {
     public static void main(String args[]) {
         A a = new A();
